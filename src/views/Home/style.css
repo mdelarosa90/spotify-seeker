@@ -1,0 +1,86 @@
+.home {
+}
+
+.home-clean-button {
+	display: block;
+	margin: 0 auto;
+	border-radius: 6px;
+	border: none;
+	padding: 7px 5px;
+	width: 130px;
+	font-size: 0.9rem;
+	font-family: 'Montserrat', 'sans-serif';
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.home-cover-container {
+	height: 200px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.home-search-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-search-box-input {
+	height: 30px;
+	width: 300px;
+	border-radius: 8px;
+	background-color: #f2f2f2;
+	border: 1px solid #b3b3b3;
+	padding: 0 4px;
+	margin-right: 1rem;
+	font-family: 'Montserrat', 'sans-serif';
+}
+
+.home-search-box-button {
+	height: 30px;
+	width: 100px;
+	border: none;
+	border-radius: 8px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: 'Montserrat', 'sans-serif';
+	cursor: pointer;
+	background-color: #1db954;
+}
+
+.home-title {
+	font-size: 2.2rem;
+	text-align: center;
+}
+
+.home-tracks-container,
+.home-albums-container,
+.home-artists-container,
+.home-episodes-container,
+.home-playlists-container {
+	margin: 2rem 5rem;
+	overflow-x: scroll;
+	border-radius: 25px;
+	padding: 2rem 3rem;
+	background-color: #f4f4f4;
+}
+
+.home-tracks-title,
+.home-albums-title,
+.home-artists-title,
+.home-episodes-title,
+.home-playlists-title {
+	font-weight: bold;
+}
+
+.home-tracks-container-items,
+.home-albums-container-items,
+.home-artists-container-items,
+.home-episodes-container-items,
+.home-playlists-container-items {
+	display: flex;
+	flex-direction: row;
+}
